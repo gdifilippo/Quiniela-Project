@@ -1,4 +1,4 @@
-package com.mg.sport;
+package com.mg.engine.calc;
 
 import com.mg.engine.calc.Competitor;
 import com.mg.engine.calc.Outcome;
@@ -14,7 +14,7 @@ import java.util.function.BiFunction;
  *
  * @param <C> the type of competitor we are dealing with.
  */
-public abstract class Sport<C extends Competitor>
+public class Sport<C extends Competitor>
 {
 	private final List<BiFunction<Outcome<C>, Outcome<C>, Optional<Integer>>> potentialPoints;
 	private final boolean stackPoints;

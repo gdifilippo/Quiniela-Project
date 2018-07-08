@@ -1,7 +1,5 @@
 package com.mg.engine.calc;
 
-import com.mg.sport.Sport;
-
 import java.util.Optional;
 import java.util.function.BiFunction;
 
